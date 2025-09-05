@@ -1,0 +1,27 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.hero {
+    background-image: url('images/hero-bg.jpg'); /* Додайте ваше фонове фото */
+    background-size: cover;
+    color: #fff;
+}
+
+.product-card {
+    transition: transform 0.3s;
+}
+
+.product-card:hover {
+    transform: scale(1.05);
+}
+
+/* Додаткові стилі для анімацій, таблиць тощо */
+.table th, .table td {
+    vertical-align: middle;
+}
+
+.pagination .page-item.active .page-link {
+    background-color: #007bff;
+    border-color: #007bff;
+}
