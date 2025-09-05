@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Інтернет-магазин розливної парфумерії: замовляйте духи на розлив, бронюйте та забирайте. Широкий асортимент, низькі ціни.">
+    <title>Розливна Парфумерія - Головна</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header class="bg-dark text-white py-3">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <a class="navbar-brand" href="index.html">Розливна Парфумерія</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="catalog.html">Каталог</a></li>
+                        <li class="nav-item"><a class="nav-link" href="booking.html">Бронювання</a></li>
+                        <li class="nav-item"><a class="nav-link" href="cart.html">Корзина <span id="cart-count" class="badge bg-danger">0</span></a></li>
+                        <li class="nav-item"><a class="nav-link" href="blog.html">Блог</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contacts.html">Контакти</a></li>
+                        <li class="nav-item"><a class="nav-link" href="login.html">Увійти</a></li>
+                        <li class="nav-item"><a class="nav-link" href="admin.html">Адмін</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero bg-light py-5 text-center">
+        <div class="container">
+            <h1>Ласкаво просимо до магазину розливної парфумерії!</h1>
+            <p>Замовляйте якісні духи на розлив за доступними цінами. Бронюйте онлайн та забирайте в магазині.</p>
+            <a href="catalog.html" class="btn btn-primary btn-lg">Переглянути асортимент</a>
+        </div>
+    </section>
+
+    <section class="popular-products py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Популярні продукти</h2>
+            <div class="row" id="popular-products-row">
+                <!-- JS додасть продукти тут -->
+            </div>
+        </div>
+    </section>
+
+    <section class="actions py-5 bg-secondary text-white">
+        <div class="container text-center">
+            <h2>Акції та знижки</h2>
+            <p>Знижка 20% на перше замовлення! Бронюйте зараз.</p>
+        </div>
+    </section>
+
+    <footer class="bg-dark text-white py-3">
+        <div class="container text-center">
+            <p>&copy; 2025 Розливна Парфумерія. Всі права захищено.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
