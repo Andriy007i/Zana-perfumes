@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <!-- Аналогічно index.html: мета, лінки, title="Каталог" -->
+    <title>Розливна Парфумерія - Каталог</title>
+    <!-- ... (скопіюйте head з index) -->
+</head>
+<body>
+    <!-- Header аналогічно index -->
+    
+    <section class="catalog py-5">
+        <div class="container">
+            <h1 class="text-center mb-4">Асортимент парфумерії</h1>
+            <div class="row mb-4">
+                <div class="col-md-6">
+                    <input type="text" id="search-input" class="form-control" placeholder="Пошук за назвою...">
+                </div>
+                <div class="col-md-3">
+                    <select id="filter-brand" class="form-select">
+                        <option value="">Бренд</option>
+                        <option value="Chanel">Chanel</option>
+                        <option value="Dior">Dior</option>
+                        <!-- Додайте більше -->
+                    </select>
+                </div>
+                <div class="col-md-3">
+                    <select id="filter-price" class="form-select">
+                        <option value="">Ціна</option>
+                        <option value="low">До 500 грн</option>
+                        <option value="high">Від 500 грн</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row" id="catalog-row">
+                <!-- JS додасть продукти -->
+            </div>
+            <nav aria-label="Pagination">
+                <ul class="pagination justify-content-center" id="pagination">
+                    <!-- JS для пагінації -->
+                </ul>
+            </nav>
+        </div>
+    </section>
+
+    <!-- Footer аналогічно -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
