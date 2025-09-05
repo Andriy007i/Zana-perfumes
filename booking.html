@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <!-- Title="Бронювання" -->
+</head>
+<body>
+    <!-- Header -->
+
+    <section class="booking py-5">
+        <div class="container">
+            <h1 class="text-center mb-4">Бронювання та самовивіз</h1>
+            <form id="booking-form">
+                <div class="mb-3">
+                    <label>Продукт</label>
+                    <select class="form-select" id="booking-product"></select> <!-- JS заповнить -->
+                </div>
+                <div class="mb-3">
+                    <label>Об'єм</label>
+                    <input type="number" class="form-control" min="50">
+                </div>
+                <div class="mb-3">
+                    <label>Дата та час</label>
+                    <input type="datetime-local" class="form-control">
+                </div>
+                <div class="mb-3">
+                    <label>Місце самовивозу</label>
+                    <select class="form-select">
+                        <option>Магазин 1 (Київ)</option>
+                        <option>Магазин 2 (Львів)</option>
+                    </select>
+                </div>
+                <button type="submit" class="btn btn-primary">Забронювати</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <script src="script.js"></script>
+</body>
+</html>
